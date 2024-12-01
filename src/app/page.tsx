@@ -5,7 +5,7 @@ import { Heart } from "lucide-react";
 
 export default function CalculateDaysCouple() {
   const [daysTogether, setDaysTogether] = useState<number>(0);
-  const startDate = new Date("2022-10-28");
+  const startDate = new Date("2021-10-27");
 
   useEffect(() => {
     const calculateDays = () => {
