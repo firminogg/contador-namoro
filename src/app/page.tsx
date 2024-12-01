@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Heart, Star } from "lucide-react";
+import { Heart } from "lucide-react";
 
 export default function CalculateDaysCouple() {
   const [daysTogether, setDaysTogether] = useState<number>(0);
