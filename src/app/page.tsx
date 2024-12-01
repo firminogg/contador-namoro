@@ -39,7 +39,6 @@ export default function CalculateDaysCouple() {
 
           <div className="text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-violet-700 mb-6">
             {daysTogether}
-            <p className="text-white text-3xl font-light">dias juntos</p>
           </div>
 
           <div className="border-t border-purple-800/30 pt-4 mt-6">
