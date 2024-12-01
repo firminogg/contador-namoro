@@ -23,15 +23,8 @@ export default function CalculateDaysCouple() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-black via-black to-purple-950">
       <div className="relative w-full max-w-md mx-auto">
-        {/* Efeito de brilho roxo ao fundo */}
         <div className="absolute inset-0 bg-purple-600/20 blur-3xl rounded-full animate-pulse"></div>
-
         <div className="relative bg-black/60 backdrop-blur-xl border border-purple-800/30 rounded-3xl p-8 text-center shadow-2xl">
-          {/* Estrelas decorativas */}
-          <div className="absolute top-4 left-4 text-purple-500/50">
-            <Star size={24} className="animate-twinkle" />
-          </div>
-
           <div className="flex justify-center mb-6">
             <Heart
               className="text-purple-500 animate-pulse"
@@ -41,22 +34,21 @@ export default function CalculateDaysCouple() {
           </div>
 
           <h1 className="text-3xl font-bold mb-4 text-purple-300 tracking-wider">
-            isa e andré
+            Isa e André
           </h1>
 
           <div className="text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-violet-700 mb-6">
             {daysTogether}
+            <p className="text-white text-3xl font-light">dias juntos</p>
+          </div>
+
+          <div className="border-t border-purple-800/30 pt-4 mt-6">
+            <p className="text-sm italic text-gray-500"></p>
           </div>
 
           <span className="text-purple-300 ml-2 font-semibold">
             {startDate.toLocaleDateString()}
           </span>
-
-          <div className="border-t border-purple-800/30 pt-4 mt-6">
-            <p className="text-sm italic text-gray-500">
-              eu amo essa garota mais do que tudo!
-            </p>
-          </div>
         </div>
       </div>
     </div>
